@@ -2,7 +2,6 @@ fun main() {
     val timeAgo = 9500
     println("Был(а) ${agoToText(timeAgo)}")
 }
-
 fun agoToText(timeAgo: Int): String {
     val finishString = when (timeAgo) {
 
